@@ -1,0 +1,19 @@
+.home {
+  background-color: #F6F6F6;
+  padding: 189px;
+  &__welcome{
+    &-header{
+      text-align: center;
+      h1{
+        line-height: 1.6;
+        font-weight: 800;
+        color: #F3B2DC;;
+        p{
+          
+          color: #95D8F4;;
+          font-weight: 800;
+        }
+      }
+    }
+  }
+}

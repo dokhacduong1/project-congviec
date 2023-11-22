@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+body .ant-menu-item-only-child{
+    color: #898989;
+}
+body .ant-menu-item-selected{
+    color: #ffffff !important;
+    background-color: #5dcaf9 !important;
+    color: #fff !important;
+}
+.ant-menu-submenu-arrow{
+    color: #5dcaf9 !important;
+    display: none;
+}
+.ant-layout-sider-children{
+    background-color: #F6F6F6 !important;
+    border: 0 !important;
+   
+}
+:where(.css-dev-only-do-not-override-1adbn6x).ant-menu-light.ant-menu-root.ant-menu-inline, :where(.css-dev-only-do-not-override-1adbn6x).ant-menu-light>.ant-menu.ant-menu-root.ant-menu-inline, :where(.css-dev-only-do-not-override-1adbn6x).ant-menu-light.ant-menu-root.ant-menu-vertical, :where(.css-dev-only-do-not-override-1adbn6x).ant-menu-light>.ant-menu.ant-menu-root.ant-menu-vertical {
+    background-color: #F6F6F6 !important;
+    border: 0 !important;
+}
+
+.layout__slider-item , .ant-menu-title-content a{
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 15px;
+    
+    font-family: 'Comfortaa', sans-serif;
+  
+}
+
+.ant-menu-submenu-title{
+    color: #e074ba;
+}
+:where(.css-dev-only-do-not-override-1adbn6x).ant-menu-light .ant-menu-submenu-selected >.ant-menu-submenu-title{
+    color: #5dcaf9;
+}
+.ant-layout-sider{
+    z-index: 9999 !important;
+    position: relative !important;
+
+}
+.layout_slider-collab , .layout_slider-collab-no-active{
+    position: absolute !important;
+    top: 1px;
+    right: -6px;
+    
+}
+.layout_slider-collab span{
+    color: #e074ba;
+    font-size: 24px !important;
+    cursor: pointer;  
+    box-shadow: rgba(55, 55, 56, 0.2) 0px 7px 29px 0px;
+   border-radius: 50%;
+}
+.layout_slider-collab-no-active span{
+    color: #5dcaf9;
+    font-size: 24px !important;
+    cursor: pointer;  
+    box-shadow: rgba(55, 55, 56, 0.2) 0px 7px 29px 0px;
+   border-radius: 50%;
+}
+:where(.css-dev-only-do-not-override-1adbn6x).ant-layout .ant-layout-sider{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 0 10px 10px 0px;
+    overflow: hidden;
+  
+}
+:where(.css-dev-only-do-not-override-1adbn6x).ant-menu-light.ant-menu-root.ant-menu-inline , :where(.css-dev-only-do-not-override-1adbn6x).ant-layout .ant-layout-sider-children .ant-menu.ant-menu-inline-collapsed 
+{
+    margin-top: 20px;
+}
+:where(.css-dev-only-do-not-override-1adbn6x).ant-layout .ant-layout-sider{
+    background: #fff;
+}
